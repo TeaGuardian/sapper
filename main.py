@@ -160,7 +160,7 @@ class Main(QWidget):
 if __name__ == '__main__':
     app = QApplication([])
     app.setStyle('Windows')
-    ex = Main(15)
+    ex = Main()
     palette = QPalette()
     palette.setColor(QPalette.Background, Qt.darkGray)
     ex.setPalette(palette)
